@@ -8,7 +8,7 @@
 html
 {
    background-color: #fff;
-   color: #bbb;
+   color: #555;
    font-family: 'Lato','Arial',sans-serif;
    font-weight: 300;
     font-size: 20px;
@@ -21,8 +21,7 @@ html
 .row{
     
     max-width: 1140px;
-    margin-left:0%; 
-    
+    margin-left:0%;
 }
 
 
@@ -79,7 +78,7 @@ h1,h2 , h3{
     
 }
 h1 {
-    margin top:0;
+    margin-top:0px;
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
@@ -87,10 +86,49 @@ h1 {
     word-spacing: 4px;
     
 }
+h2{
+    margin-top: 50px;
+    font-size: 180%;
+    color:#00a3cc;
+    margin-bottom: 30px;
+    margin-left:15%;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+
+
+h2:after{
+    
+   display: block;
+    height: 2px;
+    background-color:#00b8e6;
+    content: "";
+    width : 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+      
+    
+}
 
 /*---------------------- HEADINGS-----------------------------*/
 
+/*-------------------paragraphs--------------------*/
+.underline{
+    color:#00b8e6;
+   
+}
 
+.long-copy
+{
+    text-decoration-color: #000;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
 
 /*-------------------------icons--------------------*/
 
@@ -125,16 +163,18 @@ header{
     background-attachment: fixed;
     
 }
+
 .row p{
     font-size:80%;
     width:100%;
     text-decoration: none;
-    color:#f2f2f2;
+    //color:#555;
     font-style: italic;
     margin-top:1%;
    letter-spacing: 1px;
     
 }
+.info{color:#fff}
 
 .textbox-1{
     position:absolute;
@@ -178,6 +218,51 @@ header{
 
 /*---------------------- Page Front-----------------------------*/
 
+/*---------------------- About us-----------------------------*/
+.section-About us{
+    background-color: #424242;
+}
+.section-doc-info{
+margin-top: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(Doctor-bg.jpg);
+    background-size:cover;
+    background-position:left;
+
+    color:#fff;
+    height: 50vh;
+    background-attachment:fixed;
+}
+blockquote{
+   padding:2%;
+    font-style: italic;
+    line-height: 145%;
+    position:relative;
+    margin-top: 40px; 
+    margin-left: 10%;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top:-5px;
+    left:-3px;
+}
+cite{
+    margin-top: 30px;
+    margin-left:10%;
+    font-size:90%;
+    margin-top: 25px;
+    display:block;
+}
+
+
+cite img{
+    height:95px;
+    border-radius: 100%;
+    margin-right:10px;
+    vertical-align: middle;
+}
 
 
 
@@ -193,8 +278,7 @@ header{
 
 
 
-
-
+/*---------------------- About us-----------------------------*/
 
 
 
