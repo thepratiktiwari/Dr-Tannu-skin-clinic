@@ -115,7 +115,22 @@ h3{
       margin-right: 0%;  
     margin-left: 40%;
 }
-
+h4{
+    font-weight: 400;
+     font-style: italic;
+    line-height: 150%;
+    position:relative;
+    font-size: 90%;
+    color: #000;
+     letter-spacing: 1px;
+    word-spacing: 4px;
+    
+    margin-top:0px;
+    margin-bottom: 30px;
+      margin-right: 0%;  
+    margin-left: 20%;
+    
+}
 
 h2:after{
     
@@ -381,7 +396,11 @@ cite img{
 }
 
 
-
+/*---------------------------------Covid 19--------------------------------*/
+.section-covid img{
+    width: 100%;
+    margin-left: 15%;
+}
 
 
 
