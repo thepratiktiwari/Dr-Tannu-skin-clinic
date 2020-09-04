@@ -397,10 +397,22 @@ cite img{
 
 
 /*---------------------------------Covid 19--------------------------------*/
-.section-covid img{
-    width: 100%;
-    margin-left: 15%;
+.section-covid{
+//background-color: #F6F3F3;
 }
+.section-covid img{
+   // width: 100%;
+    margin-left: 15%;
+    
+ width: 250px;
+    
+  box-shadow: 10px 10px   rgb(88, 208, 243);
+    text-align: center;
+}
+
+ 
+
+
 
 
 
