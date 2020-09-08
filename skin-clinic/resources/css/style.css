@@ -131,6 +131,17 @@ h4{
     margin-left: 5%;
     
 }
+h5{
+    margin-top:10px;
+    margin-bottom: 30px;
+    color: red;
+    font-size: 90%;
+   font-weight: 100px;
+     letter-spacing: 1px;
+    word-spacing: 4px;
+       
+   
+}
 
 h2:after{
     
@@ -458,9 +469,13 @@ background-color:#F1F5F8;
      box-shadow: 10px 10px 5px #aaaaaa;
 }
 
-
+/*---------------------------------Contact Us--------------------------------*/
  
-
+.cblock{
+    display: inline-block;
+    margin-left: 50%;
+    
+}
 
 
 
