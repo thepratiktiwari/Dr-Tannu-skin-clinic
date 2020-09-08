@@ -354,7 +354,7 @@ div.container {
 .section-testimonials{
     padding:0;
     margin-top: 30px;
-    background-color:#F6F3F3;
+    background-color:#F1F5F8;
    
 }
 .testimonials-showcase{
@@ -410,14 +410,29 @@ div.container {
 
 /*---------------------------------Covid 19--------------------------------*/
 .section-covid{
-background-color: #FFF;
+background-color:#F1F5F8;
 }
-.text-polaroid {
+.text1-polaroid {
    
     margin-left: 8%;
     margin-top: 10%;
   width: 120%;
     height:110%;
+    border-radius: 10px;
+  border: 1px solid #FFF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+   padding-right:50px;
+    text-align:left;
+
+}
+.text2-polaroid {
+   
+    margin-left: 15%;
+    margin-top: 10%;
+  width: 120%;
+    height:110%;
+    border-radius: 10px;
   border: 1px solid #FFF;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
@@ -426,13 +441,23 @@ background-color: #FFF;
 
 }
 
-.section-covid img{
+.covidimg01{
    
     margin-left: 15%;
-    width: 450px;
+    width: 100%;
+    
     border: 1px solid #FFF;
      box-shadow: 10px 10px 5px #aaaaaa;
 }
+.covidimg02{
+   
+    margin-left: 25%;
+    width: 100%;
+    
+    border: 1px solid #FFF;
+     box-shadow: 10px 10px 5px #aaaaaa;
+}
+
 
  
 
