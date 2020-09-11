@@ -185,7 +185,7 @@ h2:after{
 
 .icon-big {
     text-align: center;
-    font-size: 400%;
+    font-size: 500%;
     display:block;
     color:#00b8e6;
 }
@@ -467,6 +467,7 @@ background-color:#F1F5F8;
 /*---------------------------------Contact Us--------------------------------*/
  
 .cblock{
+    margin-top: 0%;
     display: block;
     margin-left: 50%;
     align-content: right;
