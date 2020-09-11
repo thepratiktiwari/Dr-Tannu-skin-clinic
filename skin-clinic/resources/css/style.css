@@ -467,14 +467,20 @@ background-color:#F1F5F8;
 /*---------------------------------Contact Us--------------------------------*/
  
 .cblock{
+    width:70%;
+    height:350px;
     margin-top: 0%;
+    
     display: block;
-    margin-left: 50%;
+    margin-left: 43%;
     align-content: right;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    box-shadow: 7px 7px 5px #aaaaaa;
 }
 
 .appointment-bt{
-    margin-top: 30%;
+    margin-top: 35%;
     margin-left: 50%;
     margin-bottom: 5%;
 }
